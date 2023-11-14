@@ -63,9 +63,12 @@ header {
     transition: 0.3s;
 }
 
-.navbar a:hover,
-.navbar a.active {
+.navbar a:hover {
      color: var(--main-color);
+
+}
+.navbar a.active {
+    color: var(--main-color);
 
 }
 
@@ -229,7 +232,7 @@ span {
     margin: 2rem 0 3rem;
 }
 
-.Projects p {
+.projects p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;  
 }
@@ -241,7 +244,7 @@ span {
     align-items: start;
 }
 
-.Contact p {
+.contact p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;  
 } 
@@ -261,14 +264,14 @@ footer {
     
 }
 
-.social-media-footer {
+.contact {
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
 
-.social-media-footer a { 
+.contact a { 
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -283,7 +286,7 @@ footer {
     transition: 0.5s ease;
 }
 
-.social-media-footer a:hover{
+.contact a:hover{
     background: var(--main-color);
     color: var(--second-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
